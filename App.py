@@ -6,7 +6,7 @@ def compare_numbers(num1, num2):
     else:
         return f"{num1} is equal to {num2}"
 # Example usage
-number1 = 10
-number2 = 20
+number1 = int(input("Enter the first number: "))
+number2 = int(input("Enter the second number: "))
 result = compare_numbers(number1, number2)
 print(result)
